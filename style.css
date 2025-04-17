@@ -27,7 +27,11 @@ img{
   width: 1080px;
   margin: 0 auto;
 }
-
+.about,
+.work, 
+.contact{
+  margin-bottom: 56px;
+}
 
 .header{
   text-align: center;
