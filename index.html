@@ -10,11 +10,12 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
 
-  <header class="header wrapper">
+  <header class="header">
     <h1>
       <a href="">
         <img class="header__img" src="img/AdobeStock_269582053.jpeg" alt="">
@@ -26,23 +27,43 @@
     </p>
   </header>
 
-  <nav class="nav wrapper">
-    <ul class="nav__list">
-      <li class="nav__item">
-        <a href="#about">abou</a>
-      </li>
-      <li class="nav__item">
-        <a href="#work">work</a>
-      </li>
-      <li class="nav__item">
-        <a href="#contact">contact</a>
-      </li>
-    </ul>
+  <div class="hamburger__wrapper">
+    <nav class="nav wrapper">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#about">abou</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work">work</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact">contact</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about">abou</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work">work</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
 
+    </nav>
 
+    <div class="nav__backgroundColor">
 
-  </nav>
+    </div>
 
+    <div class="hamburger__fixed">
+      <div class="hamburger-menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </div>
+    </div>
+  </div>
 
   <main>
     <section id="about" class="about wrapper">
